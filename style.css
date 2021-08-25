@@ -1,0 +1,33 @@
+.title{
+    text-align: center;
+}
+.content{
+    border: 1px solid black;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 10px 15px;
+
+}
+
+button{
+    background-color: rgb(255, 140, 24);
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+}
+footer{
+    position:absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,45%);
+    
+
+}
+h1 i{
+    border: 1px solid transparent;
+    background-color: rgb(255, 140, 24);
+    color: white;
+}

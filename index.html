@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2d1cdb0a29.js" crossorigin="anonymous"></script>
+
+    <script src="./js/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="title">Get the weather information from your place:</h1>
+    <div class="content">
+        <form action="">
+    <label for="city">Enter your city:</label>
+    <input type="text">
+    <button type="submit">Show me your current weather</button>
+    </form>
+    <div class="resultat">
+        <h2>currentweather for :</h2>
+        <p><span>current temperature : </span><span id="temperature"></span></p>
+        <p><span>current Humidity : </span><span id="humidity"></span></p>
+        <p><span>Minimum temperature Today : </span><span id="mintemp"></span></p>
+        <p><span>Maximum temperature Today : </span><span id="maxtemp"></span></p>
+        <p><span>Latitude : </span><span id="latitude"></span></p>
+        <p><span>Longitude : </span><span id="longitude"></span></p>
+        <p><span>Weatherdescription : </span ><span id="description"></span></p>
+    
+    </div>
+
+</div>
+<footer>
+    <h4>weather information provied by</h4>
+    <h1 style="color: rgb(255,140,24);"><i class="fas fa-sun"></i>OpenWeatherMap</h1>
+</footer>
+<script src="./js/script.js"></script>
+</body>
+</html>
