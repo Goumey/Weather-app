@@ -21,7 +21,7 @@ $(document).ready(function(){
      $("#mintemp").text(`${post.main.temp_min}°C`)
      $("#longitude").text(`${post.coord.lon}°`)
      $("#latitude").text(`${post.coord.lat}°`)
-     $("#description").text(`{post.weather[0].description}`)
+     $("#description").text(`${post.weather[0].description}`)
   
     
     
