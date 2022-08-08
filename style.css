@@ -1,5 +1,13 @@
+
 .title{
     text-align: center;
+  
+   
+}
+.title i{
+    font-size: 4em;
+    background-color: rgb(255, 140, 24);
+    color: white;
 }
 .content{
     border: 1px solid black;
@@ -8,8 +16,16 @@
     left: 50%;
     transform: translate(-50%,-50%);
     padding: 10px 15px;
-
+width: 40%;
 }
+input{
+    outline: none;
+}
+.content form{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 
 button{
     background-color: rgb(255, 140, 24);
@@ -17,6 +33,9 @@ button{
     padding: 5px;
     border: none;
     border-radius: 8px;
+    width: 25%;
+    cursor: pointer;
+    margin: 0 10px;
 }
 footer{
     position:absolute;
@@ -26,8 +45,30 @@ footer{
     
 
 }
-h1 i{
+h4 i{
     border: 1px solid transparent;
     background-color: rgb(255, 140, 24);
     color: white;
+}
+
+@media screen and (max-width:960px) {
+    .content{
+       width: 70%;
+     
+     }
+    .content form{
+       display: flex;
+       justify-content: space-around;
+       flex-wrap: wrap;
+    
+    }
+.content form .input-group input{
+width: 100%;
+margin: 10px 0;
+    }
+    .content form button{
+        width: 60%;
+        margin: 10px 0;
+            }
+    
 }
